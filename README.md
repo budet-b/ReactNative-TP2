@@ -13,7 +13,7 @@ Si tout se passe bien vous devriez voir:
 ```
 Server running
 ```
-![video](./assets/myflix.mp4)
+<img src="./assets/myflix.gif" width="400" height="790">
 
 C'est un exemple de rendu, le design n'est pas la partie la plus importante dans le TP.
 
@@ -28,4 +28,9 @@ C'est un exemple de rendu, le design n'est pas la partie la plus importante dans
 7. Créer un formulaire avec les champs suivants: category, title, year. Vous avez le choix entre essayer une lib de formulaire ou bien de faire des `state`
 8. Créer la mutation `createMovie` et en faire un hooks `useCreateMovie`
 9. Lier le formulaire avec la nouvelle mutation
-10. Afficher le dernier `movie` crée via le formulaire
+10. Afficher le dernier `movie` créée via le formulaire
+
+### Bonus
+- Créer la page de Détail qui récupère les informations d'un `movie` au `onPress` sur un item de la liste
+- Afficher plusieurs catégories/listes sans passer les movies en props et en ayant uniquement un seul appel graphql
+- Créer un storybook 
